@@ -6,6 +6,7 @@
   padding: 6rem;
   min-height: 100vh;
   background-color: #F4F4F4;
+  color: #161616;
   font-family: monospace;
 }
 
@@ -26,6 +27,7 @@
 @media (prefers-color-scheme: dark) {
   .main {
       background-color: #161616;
+      color: #F4F4F4;
     }
   .markdown-container a {
       color: #78a9ff;
