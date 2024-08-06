@@ -24,10 +24,11 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Environment Variables
+## Environment Variables (.env / .env.local)
 
 ```
-NEXT_PUBLIC_REPO_URL="https://github.com/orbitalindex/awesome-space/blob/master/"
+NEXT_PUBLIC_REPO_RAW_URL="https://github.com/orbitalindex/awesome-space/blob/master/"
+NEXT_PUBLIC_REPO_URL="https://github.com/orbitalindex/awesome-space"
 NEXT_PUBLIC_MD_URL="https://raw.githubusercontent.com/orbitalindex/awesome-space/master/README.md"
 ```
 
